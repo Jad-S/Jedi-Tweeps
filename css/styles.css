@@ -1,0 +1,180 @@
+#pg-header {
+    position: fixed;
+    width: 100vw;
+}
+
+hr {
+    z-index: -1;
+}
+
+#banner {
+    height: 60px;
+    position: fixed;
+    width: 100vw;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #182628;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    padding: 0px;
+    background-color: #182628;
+    z-index: 3;
+}
+
+#navContainer {
+    background-color: #182628;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #f2f2f2;
+    color: #182628;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f2f2f2;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #65ccb8;
+}
+
+.navbar-light .navbar-brand {
+    color: #f2f2f2;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #65ccb8;
+}
+
+.navbar-brand {
+    margin: 0px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+main {
+    min-height: 93vh;
+}
+
+.content-position {
+    display: flex;
+    align-items: center;
+    height: 93vh;
+}
+
+.search-form {
+    width: 55%;
+    padding-left: 1rem;
+}
+
+.posted-content {
+    padding-top: 100px;
+}
+
+h2.posted-content {
+    padding-top: 20px;
+}
+
+textarea.form-control {
+    max-height: 100px;
+}
+
+a:hover {
+    color: #65ccb8;
+}
+
+.viewButton:hover {
+    color: #65ccb8;
+}
+
+.viewButton {
+    background-color: #182628;
+    color: #f2f2f2;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    min-width: 112px;
+    margin-bottom: 1.75rem;
+}
+
+.color {
+    background-color: #65ccb8;
+}
+
+.color:hover {
+    color: #182628;
+}
+
+#jedi-search {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#input-uname.form-control {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#input-password.form-control {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#postSuccessMsg {
+    color: #65ccb8;
+    text-align: center;
+}
+
+.noAccessMsg {
+    color: red;
+    text-align: center;
+}
+
+.footerPara:hover {
+    color: #65ccb8;
+}
+
+.footerPara {
+    margin: 0px;
+    color: #f2f2f2;
+}
+
+a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: #182628;
+    height: 7vh;
+}
+
+@media only screen and (max-width: 500px) {
+    .search-form {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    textarea.form-control {
+        max-height: 50px;
+    }
+}
