@@ -8,8 +8,8 @@ Jad: User profile page, feature to like other users' posts, feature to share oth
 
 Nafiz: Logging in, Logging out, Search articles based on author username/name
       
-Cong: See a list of people who follow me, Follow other people 
+Cong: See a list of people who follow me, follow other people 
 
-Raham: Sign up feature, See all tweets of  people I follow, Submit a blog post
+Raham: Sign up feature, feature to see all tweets of people I follow, submitting a blog post
 
 -----------------
